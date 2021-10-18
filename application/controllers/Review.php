@@ -5,6 +5,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 {
   public function index()
   {
-    $this->load->view('review/v_input');
+    $data['merk'] = ['Nike','Adidas','Kickers','Eiger','Bucherri'];
+    $this->load->view('review/v_input',$data);
   }
 }
