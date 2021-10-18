@@ -9,11 +9,12 @@
 </head>
 
 <style>
-  fieldset {
+  fieldset 
+  {
     width: 40%;
     margin: 20px auto;
     border-radius: 5px;
-}
+  }
 </style>
 
 <body>

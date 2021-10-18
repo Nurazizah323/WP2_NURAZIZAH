@@ -5,6 +5,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 {
   public function index()
   {
-    $this->load->view('TokoSepatu/TokoSepatu_input');
+    $this->load->view('review/v_input');
   }
 }
