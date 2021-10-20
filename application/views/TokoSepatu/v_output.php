@@ -9,7 +9,7 @@
         <table bgcolor="green">
             <tr>
                 <th colspan="5">
-                    <h3>TOKO SEPATU PELANGI</h3>
+                    <h3>TOKO SEPATU NURAZIZAH</h3>
                     <hr>
                 </th>
             </tr>
