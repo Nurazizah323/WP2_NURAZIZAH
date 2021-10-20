@@ -16,7 +16,7 @@
             <table bgcolor='turquoise' width="200px">
                 <tr>
                     <th>
-                        <h3>TOKO SEPATU PELANGI</h3>
+                        <h3>TOKO SEPATU NURAZIZAH</h3>
                         <hr>
                     </th>
                 </tr>
