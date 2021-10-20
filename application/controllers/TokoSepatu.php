@@ -5,7 +5,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
  {
     public function index()
     {
-        $this->load->view('view-form-tokosepatu');
+        $this->load->view('view_validation');
     }
 
     public function cetak()
