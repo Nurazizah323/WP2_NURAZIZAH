@@ -19,7 +19,6 @@ class Review_model extends CI_Model
       $this->harga = 400000;
     }
 
-    var_dump($this->harga);
-    die;
+   return $this->harga;
   }
 }

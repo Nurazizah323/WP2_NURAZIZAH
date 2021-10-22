@@ -27,8 +27,8 @@ class Review extends CI_Controller
         'ukuran' => $this->input->post('ukuran')
         'harga' => $this->Review_model->proses($this->input->post('merk'))
       ];
-      var_dump($data);
-      die;
+      
+      $this->load->view('review/v_output',$data);
     }
   }
 }
