@@ -30,8 +30,7 @@
           <th>Nama Pembeli</th>
           <td>:</td>
           <td>
-            <input type="text" name="nama" id="nama">
-            <?= form_error('nama','<br><span style="color:red;">','</span>'); ?>
+           <?= $nama; ?>
           </td>
         </tr>
 
@@ -39,8 +38,7 @@
           <th>Nomer HP</th>
           <td>:</td>
           <td>
-            <input type="text" name="nhp" id="nhp">
-            <?= form_error('nhp','<br><span style="color:red;">','</span>'); ?>
+           <?= $nhp; ?>
           </td>
         </tr>
 
@@ -48,12 +46,7 @@
           <th>Merk Sepatu</th>
           <td>:</td>
           <td>
-            <select name="merk" id="merk">
-              <option>-- PILIH --</option>
-              <?php foreach($merk as $m) : ?>
-                <option value="<?= $m; ?>"><?= $m; ?></option>
-              <?php endforeach; ?>
-            </select>
+           <?= $merk; ?>
           </td>
         </tr>
 
@@ -61,19 +54,22 @@
           <th>Ukuran Sepatu</th>
           <td>:</td>
           <td>
-            <select name="ukuran" id="ukuran">
-              <option>-- PILIH --</option>
-              <?php for ($i = 32; $i ≤ 44; $i ++) : ?>
-                <option value="<?= $i; ?>"><?= $i; ?></option>
-              <?php endfor; ?>
-            </select>
+           <?= $ukuran; ?>
+          </td>
+        </tr>
+
+        <tr>
+          <th>Harga</th>
+          <td>:</td>
+          <td>
+           <?= $harga; ?>
           </td>
         </tr>
 
         <tr>
           <td cospan="3" align="center">
             <hr>
-            <a href="<?= base_url('review'); ?>">Simpan</a>
+            <a href="<?= base_url('review'); ?>">Kembali</a>
           </td>
         </tr>
 
