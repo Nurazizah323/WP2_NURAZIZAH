@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class autentifikasi  extends CI_Controller {
+class Welcome extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,6 +20,6 @@ class autentifikasi  extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('autentifikasi_message');
+		$this->load->view('welcome_message');
 	}
 }
