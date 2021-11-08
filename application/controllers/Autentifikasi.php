@@ -132,3 +132,4 @@ terdaftar!!</div>');
              redirect('autentifikasi');
          }
      }
+}
