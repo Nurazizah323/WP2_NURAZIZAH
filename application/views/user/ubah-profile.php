@@ -11,7 +11,7 @@
                 </div>
             </div>
             <div class="form-group row">
-                <label for="nama" class="col-sm-2 col-formlabel">Nama Lengkap</label>
+                <label for="nama" class="col-sm-2 col-form-label">Nama Lengkap</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control"id="nama" name="nama" value="<?= $user['nama']; ?>">
                     <?= form_error('nama', '<small class="text-danger pl-3">', '</small>'); ?>
@@ -36,7 +36,7 @@
  
             <div class="form-group row justify-content-end">
                 <div class="col-sm-10">
-                    <button type="submit" class="btn btnprimary">Ubah</button>
+                    <button type="submit" class="btn btn-primary">Ubah</button>
                     <button class="btn btn-dark"onclick="window.history.go(-1)"> Kembali</button>
                 </div>
             </div>
