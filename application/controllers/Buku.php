@@ -93,6 +93,7 @@ true),
  redirect('buku');
 }
 }
+}
 public function kategori()
  {
  $data['judul'] = 'Kategori Buku';
